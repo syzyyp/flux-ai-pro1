@@ -1,0 +1,24 @@
+name = "flux-ai-pro1"
+compatibility_date = "2025-12-10"
+main = "worker.js"
+
+# Cloudflare Workers 配置
+# 使用免費方案：每天 100,000 次請求
+
+[vars]
+# 項目版本號（可選）
+PROJECT_VERSION = "8.7.1"
+
+# API 配置（如需要可取消註釋）
+# API_MASTER_KEY = "your-secret-key"
+
+# 如果需要設定環境變數，可以使用以下格式：
+# [env.production]
+# name = "flux-ai-pro"
+# [env.production.vars]
+# API_MASTER_KEY = "production-key"
+
+# [env.staging]
+# name = "flux-ai-pro-staging"
+# [env.staging.vars]
+# API_MASTER_KEY = "staging-key"
